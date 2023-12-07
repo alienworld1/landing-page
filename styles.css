@@ -58,3 +58,13 @@ nav ul {
     font-weight: bolder;
     color: #f9faf8;
 }
+
+.blue-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 5rem;
+    height: 1.75em;
+    flex: none;
+    border-radius: 5px;
+    border: none;
+}
