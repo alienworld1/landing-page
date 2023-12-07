@@ -12,9 +12,9 @@ body {
     flex-direction: column;
     color: #e5e7eb;
     margin: 0;
-    padding: 16px;
+    padding: 0.75em 3em;
     width: 100%;
-    flex: none;
+    flex: auto;
     box-sizing: border-box;
 }
 
@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: none;
 }
 
 header .logo {
@@ -36,4 +37,24 @@ nav ul {
     padding: 0;
     margin: 0;
     gap: 0.75em;
+}
+
+.dark-header .header-main {
+    display: flex;
+    padding: 0.75em 0;
+    justify-content: space-between;
+}
+
+.header-main .caption {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    flex: none;
+    gap: 0.5em;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
