@@ -87,7 +87,8 @@ main {
     height: 100%;
     width: 100%;
     flex: auto;
-    gap: 1em;
+    gap: 3em;
+    justify-content: center;
 }
 
 .information-header {
@@ -149,4 +150,20 @@ footer {
     width: 100%;
     color: #e5e7eb;
     height: 84px;
+}
+
+.sign-up-card {
+    width: 60%;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 1.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-card .blue-button {
+    border: 1px solid #e5e7eb;
 }
