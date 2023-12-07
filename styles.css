@@ -79,3 +79,43 @@ nav ul {
     padding: 60px;
     flex: none;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .image {
+    align-self: center;
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card .caption {
+    max-width: 160px;
+    text-align: center;
+}
+
