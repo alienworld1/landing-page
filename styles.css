@@ -43,13 +43,15 @@ nav ul {
     display: flex;
     padding: 0.75em 0;
     justify-content: space-between;
+    gap: 0.75em;
+    margin: 1.25em 0;
 }
 
 .header-main .caption {
     display: flex;
     flex-direction: column;
-    max-width: 360px;
-    flex: none;
+    /* max-width: 360px; */
+    flex: auto;
     gap: 0.5em;
 }
 
@@ -67,4 +69,13 @@ nav ul {
     flex: none;
     border-radius: 5px;
     border: none;
+}
+
+.image-placeholder {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    flex: none;
 }
